@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+
+# ┌──────────────────────────────────────────────────────────────┐
+# │ © 2020-2025 Aditya Yadav <geltron103@gmail.com>   
+# │ Note - Please Dont Think about my email :) (IK its bad)
+# │ Licensed under GNU-GPL3. You are free to copy, modify, and   │
+# │ redistribute under the same license.                         │
+# └──────────────────────────────────────────────────────────────┘
+
+
+#BerryWM Autostart Configuration
+
+# --- Window Decoration Geometry --------------------------------
+berryc border_width         0
+berryc inner_border_width   4
+berryc title_height         30
+berryc top_gap              82
+berryc edge_gap             82 20 20 20
+
+# --- Nordic Theme Colors ---------------------------------------
+# Based on Nord Palette: https://www.nordtheme.com/
+# Background shades
+#   Background Focus:       3B4252
+#   Background Unfocus:     2E3440
+# Border accents
+#   Inner Focus:            88C0D0 (Frost Blue)
+#   Inner Unfocus:          5E81AC (Muted Blue)
+# Title text
+#   Text Focus:             ECEFF4 (Bright)
+#   Text Unfocus:           D8DEE9 (Light)
+
+berryc focus_color          3B4252
+berryc unfocus_color        2E3440
+berryc inner_focus_color    88C0D0
+berryc inner_unfocus_color  5E81AC
+berryc text_focus_color     ECEFF4
+berryc text_unfocus_color   D8DEE9
+
+# --- Fonts & Behavior ------------------------------------------
+berryc set_font             "Iosevka-10"
+berryc smart_place          "true"
+berryc draw_text            "true"
+berryc edge_lock            "true"
+berryc json_status          "true"
+berryc decorate_new         "true"
+berryc pointer_interval     0
+berryc manage               Dialog|Toolbar|Menu|Splash|Utility 
+
+# --- Mouse Bindings --------------------------------------------
+berryc move_mask            "mod1"
+berryc move_button          1
+berryc resize_mask          "mod4"
+berryc resize_button        3
+
+# --- Autostart: Wallpaper, Compositor, Polybar -----------------
+nitrogen --restore &
+
+picom --config "$HOME/.config/berry/picom.conf" &
+
+bash $HOME/.config/polybar/launch.sh --docky &
+
