@@ -96,9 +96,12 @@ super + shift + q
 
 #Set Pywal Colors to Polybar
 super + shift + p
-    bash ~/.config/berry/hudkit/polybar/docky/scripts/pywal.sh "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)"
+    bash ~/.config/polybar/docky/scripts/pywal.sh "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)"
     
 #Set Lock Screen Wallpaper to current Wallpaper
 super + alt + w
     betterlockscreen --update "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)"
 
+#Theme Switcher Menu
+super + shift + t
+    bash ~/.config/berry/scripts/berry-theme-switcher.sh

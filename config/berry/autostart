@@ -17,25 +17,6 @@ berryc title_height         30
 berryc top_gap              82
 berryc edge_gap             82 20 20 20
 
-# --- Nordic Theme Colors ---------------------------------------
-# Based on Nord Palette: https://www.nordtheme.com/
-# Background shades
-#   Background Focus:       3B4252
-#   Background Unfocus:     2E3440
-# Border accents
-#   Inner Focus:            88C0D0 (Frost Blue)
-#   Inner Unfocus:          5E81AC (Muted Blue)
-# Title text
-#   Text Focus:             ECEFF4 (Bright)
-#   Text Unfocus:           D8DEE9 (Light)
-
-berryc focus_color          3B4252
-berryc unfocus_color        2E3440
-berryc inner_focus_color    88C0D0
-berryc inner_unfocus_color  5E81AC
-berryc text_focus_color     ECEFF4
-berryc text_unfocus_color   D8DEE9
-
 # --- Fonts & Behavior ------------------------------------------
 berryc set_font             "Iosevka-10"
 berryc smart_place          "true"
