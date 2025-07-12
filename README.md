@@ -1,22 +1,33 @@
 # BerryWM Nordic Rice – Dotfiles by Aditya Yadav
 
-A clean, fast, and practical BerryWM rice using a Nordic aesthetic with modular configs, Rofi launcher, Polybar HUD, and flame-powered keybinds. Built to be UNIXporn-ready, but tuned for real-world daily usage.
+A clean, fast, and practical BerryWM rice using diffrent aesthetic themes with modular configs, Rofi launcher, Polybar, and flame-powered keybinds. Tuned for real-world daily usage.
+
+(BTW)[Please Paste everything from the wallpapers folder to ~/Wallpapers for theme swithing to work perfectly.]
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-#### BerryWM Desktop
-![berrywm-showoff](previews/berrywm-showoff.png)
+#### Catppuccin Mocha
+![Mocha](previews/Mocha.png)
 
-#### Rofi Launcher
-![rofi](previews/rofi.png)
+#### Everforest
+![Everforest](previews/Everforest.png)
 
-#### Polybar + Stats
-![berry](previews/berry.png)
+#### Gruvbox
+![Gruvbox](previews/Gruvbox.png)
 
-#### Wallpaper
-![another-wall](previews/another-wall.png)
+#### Nord
+![Nord](previews/Nord.png)
+
+#### Tokyo Night
+![Tokyo](previews/TokyoNight.png)
+
+#### Redflare
+![Redflare](previews/Redflare.png)
+
+#### Pastel 
+![Pastel](previews/Pastel.png)
 
 ---
 
@@ -102,6 +113,10 @@ super + shift + q
 super + shift + p
 
 
-# Set Lock Screen Wallpaper to current Wallpaper
+# Set Lock Screen Wallpaper to current Wallpaper (If using custom wallpapers or Theme Swither will do it)
 super + alt + w
+
+#Theme Switcher Menu
+super + shift + t
+    bash ~/.config/berry/scripts/berry-theme-switcher.sh
 
