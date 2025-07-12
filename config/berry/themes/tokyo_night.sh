@@ -1,4 +1,3 @@
-
 ### Tokyo Night Theme — berry/themes/tokyonight.sh
 #!/bin/bash
 berryc border_width 2
@@ -10,3 +9,15 @@ berryc inner_focus_color  bb9af7  # Violet accent
 berryc inner_unfocus_color 565f89
 berryc text_focus_color   c0caf5
 berryc text_unfocus_color 9aa5ce
+
+#Set Wallpaper
+nitrogen --save --set-zoom-fill ~/Wallpapers/arch.png
+
+#Sync Polybar with Wallpaper
+bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/night-starry-sky-forest-silhouette-astronomy-cosmos-5k-3840x2160-1679.jpg 
+
+#Sync Lockscreen with Wallpaper
+betterlockscreen --update ~/Wallpapers/arch.png
+
+#Set Starship Prompt
+starship preset tokyo-night -o ~/.config/starship.toml

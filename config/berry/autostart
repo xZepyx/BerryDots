@@ -10,6 +10,10 @@
 
 #BerryWM Autostart Configuration
 
+# --- Touchpad Configs --- # (Only enable if using one)
+xinput set-prop 13 353 0 1  
+xinput set-prop 13 353 1 0   
+
 # --- Window Decoration Geometry --------------------------------
 berryc border_width         0
 berryc inner_border_width   4

@@ -25,13 +25,13 @@ super + alt + s
 
 # Launch Apps
 super + {f,w,e}
-	{gedit,firefox,nautilus}
+	{gnome-text-editor,firefox,nautilus}
 
 # Lockscreen
 ctrl + alt + l
     betterlockscreen --lock
 
-#
+
 # Music control
 XF86Audio{Next,Prev,Play,Stop}
 	mpc {next,prev,toggle,stop}
