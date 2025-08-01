@@ -11,13 +11,13 @@ berryc text_focus_color    ebdbb2
 berryc text_unfocus_color  a89984
 
 #Set Wallpaper
-nitrogen --save --set-zoom-fill ~/Wallpapers/person.jpg
+nitrogen --save --set-zoom-fill ~/Wallpapers/pastel-window.png
 
 #Sync Polybar with Wallpaper
-bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/person.jpg
+bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/pastel-window.png
 
 #Sync Lockscreen with Wallpaper
-betterlockscreen --update ~/Wallpapers/person.jpg
+betterlockscreen --update ~/Wallpapers/pastel-window.png
 
 #Set Starship Prompt
 starship preset gruvbox-rainbow -o ~/.config/starship.toml

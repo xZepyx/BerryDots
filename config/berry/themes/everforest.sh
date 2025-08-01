@@ -8,13 +8,13 @@ berryc text_focus_color d3c6aa
 berryc text_unfocus_color a7c080
 
 #Set Wallpaper
-nitrogen --save --set-zoom-fill ~/Wallpapers/everforest_alt.png
+nitrogen --save --set-zoom-fill ~/Wallpapers/everforest.jpg
 
 #Sync Polybar with Wallpaper
-bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/everforest_alt.png
+bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/everforest.jpg
 
 #Sync Lockscreen with Wallpaper
-betterlockscreen --update ~/Wallpapers/everforest_alt.png
+betterlockscreen --update ~/Wallpapers/everforest.jpg
 
 #Set Starship Prompt
 starship preset pastel-powerline -o ~/.config/starship.toml

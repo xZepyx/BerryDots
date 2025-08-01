@@ -12,13 +12,13 @@ berryc text_focus_color    403d52
 berryc text_unfocus_color  a89984
 
 # Set Wallpaper
-nitrogen --save --set-zoom-fill ~/Wallpapers/pastel.jpg
+nitrogen --save --set-zoom-fill ~/Wallpapers/plane_sunset.png
 
 # Sync Polybar with Wallpaper
-bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/pastel.jpg
+bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/plane_sunset.png
 
 # Sync Lockscreen with Wallpaper
-betterlockscreen --update ~/Wallpapers/pastel.jpg
+betterlockscreen --update ~/Wallpapers/plane_sunset.png
 
 # Set Starship Prompt
 starship preset tokyonight -o ~/.config/starship.toml

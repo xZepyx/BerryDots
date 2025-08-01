@@ -15,7 +15,7 @@ super + Return
 
 # Rofi App Launcher
 super + d
-	bash ~/.config/rofi/launchers/type-1/launcher.sh
+	rofi -show drun
 
 #Screenshot
 super + alt + s
@@ -94,14 +94,13 @@ super + shift + q
 ~button1
     berryc pointer_focus
 
-#Set Pywal Colors to Polybar
-super + shift + p
-    bash ~/.config/polybar/docky/scripts/pywal.sh "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)"
-    
-#Set Lock Screen Wallpaper to current Wallpaper
-super + alt + w
-    betterlockscreen --update "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)"
-
 #Theme Switcher Menu
 super + shift + t
     bash ~/.config/berry/scripts/berry-theme-switcher.sh
+    
+# Wallpaper Switcher
+super + b
+   bash ~/.scripts/wallpaper-rofi-nitrogen && bash ~/.config/polybar/docky/scripts/pywal.sh "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)" && betterlockscreen --update "$(grep file= ~/.config/nitrogen/bg-saved.cfg | cut -d'=' -f2-)" 
+   
+alt + b
+   bash ~/.scripts thumbgen.sh

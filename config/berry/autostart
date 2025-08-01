@@ -44,3 +44,4 @@ picom --config "$HOME/.config/berry/picom.conf" &
 
 bash $HOME/.config/polybar/launch.sh --docky &
 
+sxhkd -c $HOME/.config/berry/sxhkdrc &

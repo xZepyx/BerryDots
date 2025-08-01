@@ -11,13 +11,13 @@ berryc text_focus_color   eceff4
 berryc text_unfocus_color 8fbcbb
 
 #Set Wallpaper
-nitrogen --save --set-zoom-fill ~/Wallpapers/linux-be-good-4k.png
+nitrogen --save --set-zoom-fill ~/Wallpapers/nord-street.png
 
 #Sync Polybar with Wallpaper
-bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/linux-be-good-4k.png
+bash ~/.config/polybar/docky/scripts/pywal.sh ~/Wallpapers/nord-street.png
 
 #Sync Lockscreen with Wallpaper
-betterlockscreen --update ~/Wallpapers/linux-be-good-4k.png
+betterlockscreen --update ~/Wallpapers/nord-street.png
 
 #Set Starship Prompt
 starship preset no-empty-icons -o ~/.config/starship.toml

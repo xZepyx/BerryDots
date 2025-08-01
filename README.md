@@ -9,29 +9,29 @@ A clean, fast, and practical BerryWM rice using diffrent aesthetic themes with m
 ## Screenshots
 
 #### Catppuccin Mocha
-![Mocha](previews/Mocha.png)
+![Mocha](previews/mocha.png)
 
 #### Everforest
-![Everforest](previews/Everforest.png)
+![Everforest](previews/everforest.png)
 
 #### Gruvbox
-![Gruvbox](previews/Gruvbox.png)
+![Gruvbox](previews/gruvbox.png)
 
 #### Nord
-![Nord](previews/Nord.png)
+![Nord](previews/nord.png)
 
 #### Tokyo Night
-![Tokyo](previews/TokyoNight.png)
+![Tokyo](previews/tokyo-night.png)
 
 #### Redflare
-![Redflare](previews/Redflare.png)
+![Redflare](previews/redflare.png)
 
 #### Pastel 
-![Pastel](previews/Pastel.png)
+![Pastel](previews/pastel-sunset.png)
 
 ---
 
-## 🎛️ SXHKD Keybindings (Raw)
+## SXHKD Keybindings (Raw)
 
 ```bash
 # ┌──────────────────────────────────────────────────────────────┐
@@ -109,14 +109,11 @@ super + shift + c
 #Quit BerryWM
 super + shift + q
 
-# Set Pywal Colors to Polybar
-super + shift + p
-
-
-# Set Lock Screen Wallpaper to current Wallpaper (If using custom wallpapers or Theme Swither will do it)
-super + alt + w
-
 #Theme Switcher Menu
 super + shift + t
     bash ~/.config/berry/scripts/berry-theme-switcher.sh
+
+# Wallpaper Switcher
+super + b
+    change wallpaper 
 
