@@ -1,4 +1,4 @@
-# BerryWM Nordic Rice – Dotfiles by Aditya Yadav
+# BerryWM Rice – Dotfiles by Aditya Yadav
 
 A clean, fast, and practical BerryWM rice using diffrent aesthetic themes with modular configs, Rofi launcher, Polybar, and flame-powered keybinds. Tuned for real-world daily usage.
 
