@@ -2,7 +2,10 @@
 
 A clean, fast, and practical BerryWM rice using diffrent aesthetic themes with modular configs, Rofi launcher, Polybar, and flame-powered keybinds. Tuned for real-world daily usage.
 
-(BTW)[Please Paste everything from the wallpapers folder to ~/Wallpapers for theme swithing to work perfectly.]
+![Last Commit](https://img.shields.io/github/last-commit/xZepyx/HyprZepyx?style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![Stars](https://img.shields.io/github/stars/xZepyx/HyprZepyx?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![Repo Size](https://img.shields.io/github/repo-size/xZepyx/HyprZepyx?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+![Maintenance](https://img.shields.io/badge/Maintenance-Legacy-ff6969?style=for-the-badge&logo=archivebox&logoColor=D9E0EE&labelColor=1E202B)
 
 ---
 
